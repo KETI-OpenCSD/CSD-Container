@@ -1,0 +1,102 @@
+
+
+
+// std::cout << " HEX : " << user_key.ToString(true) << " | "
+//           << "block_handle_offset : " << blockhandles_iter->value().handle.offset() << " | "
+//           << "block_handle_offset.tostring : " << blockhandles_iter->value().handle.ToString(true) << " | "
+//           << "size : " << blockhandles_iter->value().handle.size() + block_size_with_trailer_
+
+
+//000051
+//  HEX : 00000110000000000000001E | block_handle_offset : 0 | block_handle_offset.tostring : 009B1F | size : 4000
+//  HEX : 00000110000000000000003D | block_handle_offset : 4000 | block_handle_offset.tostring : A01FD61F | size : 4059
+//  HEX : 00000110000000000000005B | block_handle_offset : 8059 | block_handle_offset.tostring : FB3EC21F | size : 4039
+//  HEX : 000001100000000000000079 | block_handle_offset : 12098 | block_handle_offset.tostring : C25E9B1F | size : 4000
+//  HEX : 000001100000000000000097 | block_handle_offset : 16098 | block_handle_offset.tostring : E27DF61E | size : 3963
+//  HEX : 0000011000000000000000B5 | block_handle_offset : 20061 | block_handle_offset.tostring : DD9C01C01F | size : 4037
+//  HEX : 0000011000000000000000D3 | block_handle_offset : 24098 | block_handle_offset.tostring : A2BC01B31F | size : 4024
+//  HEX : 0000011000000000000000F1 | block_handle_offset : 28122 | block_handle_offset.tostring : DADB01CB1F | size : 4048
+//  HEX : 00000110000000000000010F | block_handle_offset : 32170 | block_handle_offset.tostring : AAFB01F11F | size : 4086
+//  HEX : 00000110000000000000012C | block_handle_offset : 36256 | block_handle_offset.tostring : A09B02E71D | size : 3820
+
+//000281
+//  HEX : 0000012E0000000000000020 | block_handle_offset : 0 | block_handle_offset.tostring : 00C01F | size : 4037
+//  HEX : 0000012E0000000000000040 | block_handle_offset : 4037 | block_handle_offset.tostring : C51FF31E | size : 3960
+//  HEX : 0000012E0000000000000060 | block_handle_offset : 7997 | block_handle_offset.tostring : BD3EE91F | size : 4078
+//  HEX : 0000012E0000000000000080 | block_handle_offset : 12075 | block_handle_offset.tostring : AB5EB91F | size : 4030
+//  HEX : 0000012E00000000000000A0 | block_handle_offset : 16105 | block_handle_offset.tostring : E97DD01F | size : 4053
+//  HEX : 0000012E00000000000000C0 | block_handle_offset : 20158 | block_handle_offset.tostring : BE9D01D91F | size : 4062
+//  HEX : 0000012E00000000000000E0 | block_handle_offset : 24220 | block_handle_offset.tostring : 9CBD01D11F | size : 4054
+//  HEX : 0000012E00000000000001 | block_handle_offset : 28274 | block_handle_offset.tostring : F2DC01911F | size : 3990
+//  HEX : 0000012E000000000000011E | block_handle_offset : 32264 | block_handle_offset.tostring : 88FC01801F | size : 3973
+//  HEX : 0000012E000000000000012C | block_handle_offset : 36237 | block_handle_offset.tostring : 8D9B02CC0D | size : 1745
+
+
+------------------------------------------------------
+Table Properties:
+--------------------------------------
+  # data blocks: 10
+  # entries: 300
+  # deletions: 0
+  # merge operands: 0
+  # range deletions: 0
+  raw key size: 6000
+  raw average key size: 20.000000
+  raw value size: 36011
+  raw average value size: 120.036667
+  data block size: 40076
+  index block size (user-key? 1, delta-value? 1): 233
+  filter block size: 0
+  # entries for filter: 0
+  (estimated) table size: 40309
+  filter policy name: N/A
+  prefix extractor name: nullptr
+  column family ID: 0
+  column family name: default
+  comparator name: RocksDB_SE_v3.10
+  merge operator name: nullptr
+  property collectors names: [Rdb_tbl_prop_coll_factory]
+  SST file compression algo: NoCompression
+  SST file compression options: window_bits=-14; level=32767; strategy=0; max_dict_bytes=0; zstd_max_train_bytes=0; enabled=0; max_dict_buffer_bytes=0;
+  creation time: 1648528016
+  time stamp of earliest key: 0
+  file creation time: 1648529070
+  slow compression estimated data size: 0
+  fast compression estimated data size: 0
+  DB identity: 5fa3507a-6ed8-4c2b-83f1-09ced8d38123
+  DB session identity: IV9XQ8MOL672MVVZPHOM
+  DB host id: myrocks2
+  original file number: 51
+  unique ID: 070BFAAE62E8C4BB-1C43EABDDEBAFA43-A35D8AC865940720
+
+------------------------------------------------------
+
+
+------------------------------------------------------
+Footer Details:
+--------------------------------------
+  metaindex handle: B9C20222
+  index handle: 8CB902E401
+  table_magic_number: 9863518390377041911
+  format version: 5
+------------------------------------------------------
+
+
+------------------------------------------------------
+Index Details:
+--------------------------------------
+  Block key hex dump: Data block handle
+  Block key ascii
+
+ HEX : 00000110000000000000001E | block_handle_offset : 0 | block_handle_offset.tostring : 009B1F | size : 4000
+ HEX : 00000110000000000000003D | block_handle_offset : 4000 | block_handle_offset.tostring : A01FD61F | size : 4059
+ HEX : 00000110000000000000005B | block_handle_offset : 8059 | block_handle_offset.tostring : FB3EC21F | size : 4039
+ HEX : 000001100000000000000079 | block_handle_offset : 12098 | block_handle_offset.tostring : C25E9B1F | size : 4000
+ HEX : 000001100000000000000097 | block_handle_offset : 16098 | block_handle_offset.tostring : E27DF61E | size : 3963
+ HEX : 0000011000000000000000B5 | block_handle_offset : 20061 | block_handle_offset.tostring : DD9C01C01F | size : 4037
+ HEX : 0000011000000000000000D3 | block_handle_offset : 24098 | block_handle_offset.tostring : A2BC01B31F | size : 4024
+ HEX : 0000011000000000000000F1 | block_handle_offset : 28122 | block_handle_offset.tostring : DADB01CB1F | size : 4048
+ HEX : 00000110000000000000010F | block_handle_offset : 32170 | block_handle_offset.tostring : AAFB01F11F | size : 4086
+ HEX : 00000110000000000000012C | block_handle_offset : 36256 | block_handle_offset.tostring : A09B02E71D | size : 3820
+------------------------------------------------------
+
